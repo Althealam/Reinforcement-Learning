@@ -25,13 +25,13 @@ def policy_improvement(V, env, gamma=0.9):
     n_actions = env.action_space.n
     new_policy = np.zeros((n_states, n_actions))
 
-    for s in range(n_states):
+    for s in range(n_states): # iterate current statement
         action_values = np.zeros(n_actions)
-        for a in range(n_actions):
-            for prob, next_state, reward, done in env.P[s][a]:
+        for a in range(n_actions): # iterate actions
+            for prob, next_state, reward, done in env.P[s][a]: # iterate next statement
                 action_values[a] += prob * (reward + gamma * V[next_state])
-        best_action = np.argmax(action_values)
-        new_policy[s][best_action] = 1.0
+        best_action = np.argmax(action_values) # update best action
+        new_policy[s][best_action] = 1.0 # update policy
     return new_policy
 
 
@@ -46,7 +46,7 @@ def policy_iteration(env, gamma=0.9, theta=1e-6):
 
     while True:
         iteration += 1
-        V = policy_evaluation(policy, env, gamma, theta)
+        V = policy_evaluation(policy, env, gamma, theta) 
         new_policy = policy_improvement(V, env, gamma)
 
         # Stop if policy did not change
