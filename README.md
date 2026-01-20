@@ -69,18 +69,6 @@ A structured, bilingual collection of reinforcement learning algorithms implemen
 
 ---
 
-## 6️⃣ Application Domains | 应用场景类
-
-- 🎮 **Game Environments**: CartPole / LunarLander / Mario / Atari  
-  （游戏环境）  
-- 🧩 **Recommender Systems / Advertising Bidding Optimization**  
-  （推荐系统 / 广告出价优化）  
-- 🤖 **Robotics / Control** （机器人 / 控制）  
-- 💰 **Finance / Trading Strategies** （金融 / 交易策略）  
-- ✍️ **Text Generation / LLM Fine-Tuning (RLHF / PPO)** （文本生成 / LLM 调优）
-
----
-
 ## 📘 Notes
 
 - All implementations follow the same environment and logging conventions.  
