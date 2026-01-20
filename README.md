@@ -7,25 +7,25 @@ A structured, bilingual collection of reinforcement learning algorithms implemen
 ## 1️⃣ Value-based Methods | 基础价值迭代类
 
 **Dynamic Programming (DP) | 动态规划**
-- Policy Evaluation  
-- Policy Iteration  
-- Value Iteration  
+- Policy Evaluation ☑️
+- Policy Iteration ☑️
+- Value Iteration ☑️  
 
 **Monte Carlo Methods | 蒙特卡罗方法**
 
 **Temporal Difference (TD) | 时序差分法**
-- TD(0)  
-- TD(n)  
-- TD(λ)  
+- TD(0) ☑️  
+- TD(n) ☑️
+- TD(λ) ☑️  
 
 **Q-learning Family | Q-learning 系列**
-- Q-learning (off-policy)  
-- SARSA (on-policy)  
-- Expected SARSA  
-- Double Q-learning  
+- Q-learning (off-policy) ☑️ 
+- SARSA (on-policy) ☑️  
+- Expected SARSA ☑️ 
+- Double Q-learning ☑️ 
 
 **Deep Value Networks | 深度价值网络**
-- DQN  
+- DQN ☑️ 
 - Double DQN  
 - Dueling DQN  
 - Rainbow DQN  
